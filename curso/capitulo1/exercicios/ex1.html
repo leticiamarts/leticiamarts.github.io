@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 1</title>
 </head>
 <body>
-    <h1>Exemplo 1</h1>
+    <h1>Tabelas</h1>
+
+    <table style="width:50%">
+        <tr>
+          <th>Nome</th>
+          <th colspan="2">Telefone</th>
+        </tr>
+        <tr>
+          <td>Nome 1</td>
+          <td>contato 1</td>
+          <td>contato 2</td>
+        </tr>
+      </table>
+
+        <br>
+        <br>
+        <br>
+
+      <table style="width:50%">
+        <tr>
+          <th>Nome</th>
+          <td>Nome 1</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Telefone</th>
+          <td>contato 1</td>
+        </tr>
+        <tr>
+          <td>contato 2</td>
+        </tr>
+      </table>
+
+
     <a href="../../sumario.html">Voltar ao Sumário</a>
 </body>
 </html>
