@@ -21,9 +21,9 @@
         document.addEventListener("DOMContentLoaded", function () {
             const resources = [
                 { title: "Regras Gramaticais", url: "grammar.html", description: "Regras Gramaticais mais importantes e guias." },
-                { title: "BBC Learning English", url: "https://www.bbc.co.uk/learningenglish", description: "Aulas gratuitas de inglês pela BBC." },
                 { title: "Duolingo", url: "https://www.duolingo.com/", description: "Plataforma Interativa." },
-                { title: "Entretenimento", description: "Músicas, Letras e Traduções, Filmes, Podcasts." }
+                { title: "Entretenimento", description: "Músicas, Letras e Traduções, Filmes, Podcasts." },
+                { title: "BBC Learning English", url: "https://www.bbc.co.uk/learningenglish", description: "Aulas gratuitas de inglês pela BBC." }
             ];
             
             const container = document.getElementById("resources");
@@ -35,7 +35,7 @@
                         <div class="card-body">
                             <h5 class="card-title">${resource.title}</h5>
                             <p class="card-text">${resource.description}</p>
-                            <a href="${resource.url}" class="btn btn-primary" target="_blank">Visit</a>
+                            <a href="${resource.url}" class="btn btn-primary" target="_blank">Acessar</a>
                         </div>
                     </div>
                 `;
